@@ -42,3 +42,21 @@ start_time = st.slider(
      format="DD/MM/YYYY - hh:mm")
 times=start_time.strftime("%d/%m/%Y")
 st.write("Start time:", times)
+
+# Example 5
+
+import streamlit as st
+
+color = st.select_slider(
+    "Select a color of the rainbow",
+    options=[
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "blue",
+        "indigo",
+        "violet",
+    ],
+)
+st.write("My favorite color is", color)

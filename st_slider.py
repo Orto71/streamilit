@@ -27,6 +27,8 @@ appointment = st.slider(
      "Schedule your appointment:",
      value=(time(11, 30), time(12, 45)))
 st.write("You're scheduled for:", appointment)
+for item in appointment
+     st.write(item)
 
 # Example 4
 

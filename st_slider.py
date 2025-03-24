@@ -38,5 +38,5 @@ st.subheader('Datetime slider')
 start_time = st.slider(
      "When do you start?",
      value=datetime(2020, 1, 1, 9, 30),
-     format="DD/MM/YY - hh:mm")
+     format="YY/MM/DD - hh:mm")
 st.write("Start time:", start_time)

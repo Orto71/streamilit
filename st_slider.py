@@ -29,7 +29,7 @@ appointment = st.slider(
 a=list()
 for item in appointment:
      a.append(item)
-st.write("You're scheduled for:", a(0),a(1))
+st.write("You're scheduled from:", a[0],"to",a[1])
 
 # Example 4
 

@@ -28,7 +28,8 @@ appointment = st.slider(
      value=(time(11, 30), time(12, 45)))
 a=list()
 for item in appointment:
-     a.append(item)
+     hour_min=item.strftime("%H:%M")
+     a.append(hour_min)
 st.write("You're scheduled from:", a[0],"to",a[1])
 
 # Example 4

@@ -1,4 +1,3 @@
-python>7
 pandas
 streamlit
 matplotlib

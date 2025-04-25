@@ -1,5 +1,5 @@
 import pandas as pd
-from matplotlib import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 import streamlit as st 
 
 def barchart(borough,years):

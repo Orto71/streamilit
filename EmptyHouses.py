@@ -1,6 +1,6 @@
-import pandas as pd
 from matplotlib import pyplot as plt
-import streamlit as st 
+import streamlit as st
+import pandas as pd
 
 def barchart(borough,years):
 	columns_to_plot = pivot_table.columns[:-1]
@@ -109,4 +109,5 @@ with col2:
 	barchart(borough,years)
 with col3:
 	pie_chart(borough)
+	if borough=="All boroughs":borough="All London"
 	st.write(pivot_table.loc[pivot_table.index == borough].T)
